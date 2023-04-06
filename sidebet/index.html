@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
+
+<head><title>The Open 2022</title></head>
+
+<style>
+
+body {
+  font-size: 0.8em;
+  background-color: #f0f5f5;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 2px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    font-family: monospace;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-spacing: 0;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 7px 7px;
+    white-space: pre;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #e6f2ff;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #ebfafa;
+}
+
+.styled-table thead tr:hover {
+   background-color: #009879;
+}
+
+.styled-table tbody tr:hover {
+  background-color: lightblue;
+}
+
+.styled-table .leftborder {
+  border-left: 1px solid lightgrey;
+}
+
+.styled-table .greyout {
+  color: darkgrey;
+}
+
+.styled-table .bigbold {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* the first 'th' within the first 'tr' of the 'thead': */
+.styled-table thead tr:first-child th:first-child {
+    border-radius: 0.9em 0 0 0;
+}
+/* the last 'th' within the first 'tr' of the 'thead': */
+.styled-table thead tr:first-child th:last-child {
+    border-radius: 0 0.9em 0 0;
+}
+/* the first 'td' within the last 'tr' of the 'tbody': */
+.styled-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 0.9em;
+}
+/* the last 'td' within the last 'tr' of the 'tbody': */
+.styled-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 0.9em 0;
+}
+
+.center-things {
+  text-align: center;
+  display: block;
+  font-size:0.9em;
+}
+
+.left-things {
+  text-align: left;
+  display: block;
+  font-size:0.9em;
+}      
+
+</style>
+
+<script type="text/javascript">
+  function refreshPage () {
+    document.location.reload();
+  }
+  window.onload = function () {
+    setTimeout(refreshPage, 15000);
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var table = document.getElementsByClassName('styled-table')[0];
+    var tbody = table.getElementsByTagName('tbody')[0];
+    var cells = tbody.getElementsByTagName('td');
+
+    for (var i=0, len=cells.length; i<len; i++){
+      if (cells[i].innerHTML.endsWith("Not Paid")){
+        cells[i].style.color = 'red';
+      }
+    }
+  }, false);
+</script>
+
+<div class="center-things">
+  <img style="width:220px;height:75px;" align="center" src="https://pga-tour-res.cloudinary.com/image/upload/c_pad,f_auto,h_75,q_auto,w_220/v1/pgatour/logos/tournament_logos/r100/220x75.png" />
+  <br/>
+  <br/>
+  <a href="https://www.pgatour.com/competition/2022/the-open-championship/leaderboard.html" target="_blank">Link to official leaderboard</a>
+</div>
+<table class="styled-table">
+  <thead>
+  <tr>
+    <th style="font-size: 0.7em;">Last Updated</br>Jul 18, 2:40:57 PM EDT</th>
+    <th>Score</th>
+    <th>Best</th>
+    <th>#2</th>
+    <th>#3</th>
+    <th>#4</th>
+    <th class="greyout leftborder" colspan=2>Backup or Out</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="bigbold">Jon Hosegood</td>
+      <td class="bigbold">-62</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Viktor Hovland -14
++2 (F)</td>
+      <td>Xander Schauffele -10
+-5 (F)</td>
+      <td class="greyout leftborder">Shane Lowry -9
+-2 (F)</td>
+      <td class="greyout">Max Homa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Chris Bryson</td>
+      <td class="bigbold">-62</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Jordan Spieth -12
+-4 (F)</td>
+      <td>Patrick Cantlay -12
+-4 (F)</td>
+      <td class="greyout leftborder">Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout">Max Homa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Adam Ryan</td>
+      <td class="bigbold">-62</td>
+      <td>Cameron Smith(W) -20
+-8 (F)</td>
+      <td>Rory McIlroy -18
+-2 (F)</td>
+      <td>Tommy Fleetwood -14
+-5 (F)</td>
+      <td>Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout leftborder">Justin Thomas -4
+-2 (F)</td>
+      <td class="greyout">Collin Morikawa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Chris Sinclair</td>
+      <td class="bigbold">-59</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Tyrrell Hatton -11
+-4 (F)</td>
+      <td>Xander Schauffele -10
+-5 (F)</td>
+      <td class="greyout leftborder">Matt Fitzpatrick -9
+E (F)</td>
+      <td class="greyout">Tony Finau -8
+-6 (F)</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Larry Judge</td>
+      <td class="bigbold">-58</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Jordan Spieth -12
+-4 (F)</td>
+      <td>Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout leftborder">Seamus Power
+Missed Cut</td>
+      <td class="greyout">Max Homa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Neil Hardy</td>
+      <td class="bigbold">-58</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Tommy Fleetwood -14
+-5 (F)</td>
+      <td>Viktor Hovland -14
++2 (F)</td>
+      <td>Jordan Spieth -12
+-4 (F)</td>
+      <td class="greyout leftborder">Patrick Cantlay -12
+-4 (F)</td>
+      <td class="greyout">Shane Lowry -9
+-2 (F)</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Jeff Turnham</td>
+      <td class="bigbold">-57</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy -18
+-2 (F)</td>
+      <td>Xander Schauffele(W) -10
+-5 (F)</td>
+      <td>Matt Fitzpatrick -9
+E (F)</td>
+      <td class="greyout leftborder">Collin Morikawa
+Missed Cut</td>
+      <td class="greyout">Louis Oosthuizen
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Matt Tummon</td>
+      <td class="bigbold">-57</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Tommy Fleetwood -14
+-5 (F)</td>
+      <td>Dustin Johnson -13
+-3 (F)</td>
+      <td>Jordan Spieth -12
+-4 (F)</td>
+      <td class="greyout leftborder">Matt Fitzpatrick -9
+E (F)</td>
+      <td class="greyout">Shane Lowry -9
+-2 (F)</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Brandon Nussey</td>
+      <td class="bigbold">-56</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Rory McIlroy -18
+-2 (F)</td>
+      <td>Matt Fitzpatrick(W) -9
+E (F)</td>
+      <td>Scottie Scheffler -9
++2 (F)</td>
+      <td class="greyout leftborder">Shane Lowry -9
+-2 (F)</td>
+      <td class="greyout">Will Zalatoris -8
+-3 (F)</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Dave Hutton</td>
+      <td class="bigbold">-51</td>
+      <td>Cameron Smith -20
+-8 (F)</td>
+      <td>Dustin Johnson -13
+-3 (F)</td>
+      <td>Xander Schauffele -10
+-5 (F)</td>
+      <td>Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout leftborder">Justin Thomas(W) -4
+-2 (F)</td>
+      <td class="greyout">Max Homa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Jamie Watters</td>
+      <td class="bigbold">-49</td>
+      <td>Rory McIlroy -18
+-2 (F)</td>
+      <td>Tommy Fleetwood -14
+-5 (F)</td>
+      <td>Xander Schauffele -10
+-5 (F)</td>
+      <td>Matt Fitzpatrick -9
+E (F)</td>
+      <td class="greyout leftborder">Robert MacIntyre -7
+-4 (F)</td>
+      <td class="greyout">Louis Oosthuizen(W)
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Shane Tummon</td>
+      <td class="bigbold">-44</td>
+      <td>Rory McIlroy(W) -18
+-2 (F)</td>
+      <td>Matt Fitzpatrick -9
+E (F)</td>
+      <td>Shane Lowry -9
+-2 (F)</td>
+      <td>Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout leftborder">Jon Rahm -7
+-2 (F)</td>
+      <td class="greyout">Collin Morikawa
+Missed Cut</td>
+    </tr>
+    <tr>
+      <td class="bigbold">Scott Williamson</td>
+      <td class="bigbold">-38</td>
+      <td>Tyrrell Hatton -11
+-4 (F)</td>
+      <td>Xander Schauffele -10
+-5 (F)</td>
+      <td>Matt Fitzpatrick -9
+E (F)</td>
+      <td>Will Zalatoris -8
+-3 (F)</td>
+      <td class="greyout leftborder">Jon Rahm(W) -7
+-2 (F)</td>
+      <td class="greyout">Collin Morikawa
+Missed Cut</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
